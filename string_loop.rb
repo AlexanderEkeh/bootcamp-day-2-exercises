@@ -1,6 +1,6 @@
-count  = 1
+count  = 0
 name = "Ikechukwunyeremefuna".upcase!.split("")
-name.each do |e|
-	puts "#{count} #{e}"
+while count < name.length - 1   do
+	puts "#{count + 1}   #{name[count]}"
 	count +=1
 end
