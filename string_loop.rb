@@ -1,6 +1,4 @@
-count  = 0
-name = "Ikechukwunyeremefuna".upcase!.split("")
-while count < name.length   do
-	puts "#{count + 1}   #{name[count]}"
-	count +=1
+name = "Ikechukwunyeremefuna".upcase!
+for i in 0...name.length do
+	puts "#{i + 1} #{name[i]}"
 end
